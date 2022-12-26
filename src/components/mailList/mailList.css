@@ -1,0 +1,35 @@
+.mailList {
+    width: 100%;
+    margin-top: 3rem;
+    background-color: #293462;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+    padding: 3rem;
+}
+
+.mailInputContainer > input {
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.mailInputContainer > input:focus {
+    border: none;
+}
+
+.mailInputContainer > button {
+    height: 30px;
+    padding: 0px 10px;
+    background-color: #1CD6CE;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
